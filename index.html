@@ -54,9 +54,6 @@
 			</div>
 		</section>
 
-<!-- <p> <a id="profile-link" href="https://github.com/simona-katauskyte" target="_blank">Showcase</a></p> -->
-
-
 		<section id="skills" class="container-fluid">
 			<div class="row section-head1">
 				<h1 class="col-sm-12">Showcase</h1>
@@ -71,20 +68,34 @@
 						<div class="btn-list">
 							<button type="button" class="btn" onclick="filterSelection('all')">Show all</button>
 							<button class="btn" onclick="filterSelection('css')">Just CSS</button>
-							<button class="btn" onclick="filterSelection('bootstrap')">Bootstrap</button>
+<!-- 							<button class="btn" onclick="filterSelection('bootstrap')">Bootstrap</button> -->
 							<button class="btn" onclick="filterSelection('materialize')">Materialize</button>
 							<button class="btn" onclick="filterSelection('javascript')">JavaScript</button>
 							<button class="btn" onclick="filterSelection('jquery')">jQuery</button>
 						</div>
-					
-
 					</div>
 				</div>
 			</div>
 
 			<div class="row">
 				<div class="col-sm-12 d-flex flex-wrap justify-content-start" id="skill-section">
-					
+
+					<div class="card skill-card xall xcss">
+				  		<div class="card-body cb-back">
+							<div class="card-background">
+								<h5 class="card-title">Product Landing Page</h5>
+								<h6 class="card-subtitle mb-4 text-muted">Gift-Kit</h6>
+								<p class="card-text">It is personal project for learning purposes. The idea of the page is to create one page product presentation. Plain CSS was used to get some practice (focusing on using grid and flex).</p>
+								<p class="techn">CSS</p>
+								<p class="date">2019.12</p>
+							</div>
+							<div class="flex-wrap d-flex flex-column justify-content-between">
+								<a href="https://simona-katauskyte.github.io/GiftKit/" target="_blank" class="btn">View page</a>
+							    <a href="https://github.com/simona-katauskyte/GiftKit" target="_blank" class="btn">View code</a>
+							</div>
+					  	</div>
+					</div>
+
 					<div class="card skill-card xall xcss">
 					  	<div class="card-body cb-back">
 						  	<div class="card-background">
@@ -94,10 +105,12 @@
 							    <p class="techn">CSS</p>
 							    <p class="date">2018.14</p>
 							</div>
-						    <a href="https://codepen.io/simona-katauskyte/full/gZOrEW" target="_blank" class="btn">View page</a>
+							<div class="flex-wrap d-flex flex-column justify-content-between">
+								<a href="https://simona-katauskyte.github.io/tributed-kahneman/" target="_blank" class="btn">View page</a>
+							    <a href="https://github.com/simona-katauskyte/tributed-kahneman" target="_blank" class="btn">View code</a>
+							</div>
 					  	</div>
 					</div>
-
 
 					<div class="card skill-card xall xcss xjavascript">
 					  	<div class="card-body cb-back">
@@ -108,21 +121,26 @@
 							    <p class="techn">CSS, JavaScript</p>
 							    <p class="date">2018.11</p>
 							</div>
-						    <a href="https://codepen.io/simona-katauskyte/full/zQzbpB" target="_blank" class="btn">View page</a>
+							<div class="flex-wrap d-flex flex-column justify-content-between">
+								<a href="https://simona-katauskyte.github.io/ninja-pension/" target="_blank" class="btn">View page</a>
+							    <a href="https://github.com/simona-katauskyte/ninja-pension" target="_blank" class="btn">View code</a>
+							</div>
 					  	</div>
 					</div>
 
-
-					<div class="card skill-card xall xcss xbootstrap">
-				  	<div class="card-body cb-back">
-							  	<div class="card-background">
-								    <h5 class="card-title">Product Landing Page</h5>
-								    <h6 class="card-subtitle mb-4 text-muted">Gift-Kit</h6>
-								    <p class="card-text">It is personal project for learning purposes. The idea of the page is to create one page product presentation. Plain CSS was used to get some practice (focusing on using grid and flex).</p>
-								    <p class="techn">CSS, test</p>
-								    <p class="date">2019.12</p>
-								</div>
-						    <a href="https://codepen.io/simona-katauskyte/full/vvYGrG" target="_blank" class="btn">View page</a>
+					<div class="card skill-card xall xmaterialize xjavascript xjquery xjavascript">
+					  	<div class="card-body cb-back">
+						  	<div class="card-background">
+							    <h5 class="card-title">Several page website</h5>
+							    <h6 class="card-subtitle mb-4 text-muted">Petfluencers</h6>
+							    <p class="card-text">It was project done during the course of "Foundations of programming" at Vilnius Coding School. This website was created working with the team. The purpose was to put into practice freshly learned skills to create responsive website and learn how to collaborate with git. Some pages were deleted due to personal information other team members have added.</p>
+							    <p class="techn">CSS, Materialize, JavaScript, jQuery</p>
+							    <p class="date">2018.07</p>
+							</div>
+							<div class="flex-wrap d-flex flex-column justify-content-between">
+								<a href="https://simona-katauskyte.github.io/ninja-pension/" target="_blank" class="btn">View page</a>
+							    <a href="https://github.com/simona-katauskyte/ninja-pension" target="_blank" class="btn">View code</a>
+							</div>
 					  	</div>
 					</div>
 
@@ -339,6 +357,10 @@
 						<a href="https://www.linkedin.com/in/simonakatauskyte" class="text-white" target="_blank">in/simonakatauskyte</a>
 					</h6>
 				</div>
+
+<!-- <p> <a id="profile-link" href="https://github.com/simona-katauskyte" target="_blank">Showcase</a></p> -->
+
+				
 			</div>
 		</section>
 	</main>
@@ -359,7 +381,7 @@
 
     <!-- Optional JavaScript -->
     <script type="text/javascript" src="scripts/main.js"></script>
-<!--     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

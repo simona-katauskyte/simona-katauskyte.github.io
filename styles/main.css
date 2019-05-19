@@ -440,9 +440,7 @@ footer {
 .btn {
 	border-radius: 0;
 	background-color: #FDA82B;
-/*	background-color: #2A2E43;*/
 	color: #fff;
-/*	margin: 2px;*/
 }
 
 .btn:active, .btn:focus {
