@@ -1,3 +1,14 @@
+/*
+
+#FDA82B - yellow
+#2a2e43 - dar blue
+#00AAA0 - persian green
+#007C85 - light teal
+#065A68 - dark teal
+
+*/
+
+
 h1, h2, h3, h4, h5, h6, p, a {
 	color: #2A2E43;
 }
@@ -577,6 +588,37 @@ footer {
 	background-position: left top;
 	background-size: cover;
 }*/
+
+
+/* ============= ABOUT ME ======================================== */
+#edu-content {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.edu-card {
+	border: 3px solid;
+	border-top: 25px solid;
+	width: 23%;
+	margin: 0.5rem;
+}
+
+#edu1 {
+	border-color: #FDA82B;
+}
+
+#edu2 {
+
+	border-color: #00AAA0;
+}
+
+#edu3 {
+	border-color: #007C85;
+}
+
+#edu4 {
+	border-color: #065A68;
+}
 
 /* ============= CONTACTS ======================================== */
 #contacts {
