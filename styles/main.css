@@ -284,7 +284,6 @@ footer {
 	background-color: #2A2E43;
 	text-align: center;
 	margin-right: 1rem;
-
 }
 
 #route-tile {
@@ -297,16 +296,16 @@ footer {
 }
 
 .route-left-start {
-	border-top: 10px solid #FDA82B;
+	border-top: 10px solid #00AAA0;
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 	position: relative;
 }
 
 .route-right {
-	border-top: 10px solid #FDA82B;
-	border-right: 10px solid #FDA82B;
-	border-bottom: 10px solid #FDA82B;
+	border-top: 10px solid #00AAA0;
+	border-right: 10px solid #00AAA0;
+	border-bottom: 10px solid #00AAA0;
 	border-top-right-radius: 90px;
 	border-bottom-right-radius: 90px;
 	padding-top: 3rem;
@@ -315,9 +314,9 @@ footer {
 }
 
 .route-left {
-	border-top: 10px solid #FDA82B;
-	border-left: 10px solid #FDA82B;
-	border-bottom: 10px solid #FDA82B;
+	border-top: 10px solid #00AAA0;
+	border-left: 10px solid #00AAA0;
+	border-bottom: 10px solid #00AAA0;
 	border-top-left-radius: 80px;
 	border-bottom-left-radius: 80px;
 	padding-top: 3rem;
@@ -326,8 +325,8 @@ footer {
 }
 
 .route-end {
-	border-top: 10px solid #FDA82B;
-	border-left: 10px solid #FDA82B;
+	border-top: 10px solid #00AAA0;
+	border-left: 10px solid #00AAA0;
 	border-top-left-radius: 80px;
 	padding-top: 3rem;
 	padding-bottom: 3rem;
@@ -352,12 +351,12 @@ footer {
 	border-radius: 50%;
 	font-size: 2rem;
 	color: #FFF;
-	background-color: #FDA82B;
+	background-color: #2A2E43;
 	text-align: center;
 }
 
 .current-circle p {
-	background-color: #2A2E43;
+	background-color: #FDA82B;
 }
 
 .row-position2 {
@@ -422,7 +421,6 @@ footer {
 }
 
 .route-text a {
-	text-transform: capitalize;
 	font-weight: lighter;
 	color: #6A6D7C;
 }
@@ -433,7 +431,7 @@ footer {
 
 .line-upper {
 	height: 1rem;
-	border-top: 1px solid #2A2E43;
+	border-top: 1px solid #00AAA0;
 	width: 60%;
 	padding-bottom: 2rem;
 	margin: auto;
@@ -441,7 +439,7 @@ footer {
 
 .line-bottom {
 	height: 1rem;
-	border-bottom: 1px solid #2A2E43;
+	border-bottom: 1px solid #00AAA0;
 	width: 60%;
 	padding-top: 1.5rem;
 	margin: auto;
@@ -456,8 +454,8 @@ footer {
 
 .btn:active, .btn:focus {
 	color: #FFF;
-	background-color: #2A2E43;
-	border-color: #2A2E43;
+	background-color: #007C85;
+	border-color: #007C85;
 	box-shadow: none;
 }
 
@@ -465,47 +463,15 @@ footer {
 	margin: 0 0 0 0.9rem;
 }
 
-.dropdown, .btn-list {
-	margin-right: 1rem;
-}
-
-.dropdown-menu {
-	background-color: #2A2E43;
-	border-radius: 0;
-	border: none;
-	margin: 0;
-}
-
-.dropdown-item {
-	color: #FFF;
-	border: none;
-}
-
-.dropdown-item:hover {
-	color: #FFF;
-	background-color: #FDA82B;
-}
-
-.technology {
-	margin: 0.5rem 0 0.5rem 1rem;
-}
-
-.technology::before {
-	content: "Technology: "
-}
-
-.sort {
-	margin: 0.5rem 1rem 0.5rem 0;
-}
-
-.sort::before {
-	content: "Sorted by: "
+.btn-list {
+	margin-bottom: 1rem;
 }
 
 /* ============= SKILLS CARDS ================================= */
 #skill-section {
 	height: 90vh;
 	overflow: scroll;
+	background-color: #fff;
 }
 
 .card-body {
@@ -527,6 +493,11 @@ footer {
 
 .skill-card:hover {
 	box-shadow: 0 20px 40px 10px rgba(0,0,0,0.25);
+}
+
+.port-card {
+	border: 3px solid #007C85;
+	border-top: 2.1rem solid #007C85;
 }
 
 .card-title {
@@ -556,25 +527,16 @@ footer {
 	font-style: normal;
 	content: "Date: "
 }
-/*.card-requirement {
-	text-transform: uppercase;
-	padding-top: 0.6rem;
-	padding-bottom: 0.6rem;
-	font-weight: bold;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}*/
 
 .card-body .btn {
 	color: #FFF;
-/*	width: 100%;*/
 	text-transform: uppercase;
 	margin-top: 1rem;
+	background-color: #007C85;
 }
 
 .card-body .btn:hover {
-	background-color: #2A2E43;
+	background-color: #065A68;
 }
 
 .card-background {
@@ -582,15 +544,12 @@ footer {
 	padding: 0.4rem;
 }
 
-/*.cb-back {
-	background-image: linear-gradient(60deg, #2dd8bd, #22b7a0, #2A2E43);
-	background-repeat: no-repeat;
-	background-position: left top;
-	background-size: cover;
-}*/
-
-
 /* ============= ABOUT ME ======================================== */
+#myTabContent {
+	height: 70vh;
+	overflow: scroll;
+}
+
 #edu-content {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
@@ -603,20 +562,32 @@ footer {
 	margin: 0.5rem;
 }
 
-#edu1 {
+.exp-card {
+	border-top: 25px solid;
+	margin: 2rem;
+	width: 100%;
+}
+
+.vol-card {
+	border: 3px solid;
+	border-top: 25px solid;
+	margin: 2rem;
+	width: 25%;
+}
+
+.border-yellow {
 	border-color: #FDA82B;
 }
 
-#edu2 {
-
+.border-persian {
 	border-color: #00AAA0;
 }
 
-#edu3 {
+.border-light-teal {
 	border-color: #007C85;
 }
 
-#edu4 {
+.border-dark-teal {
 	border-color: #065A68;
 }
 
