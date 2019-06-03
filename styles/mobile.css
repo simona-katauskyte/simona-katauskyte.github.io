@@ -1,0 +1,23 @@
+@media screen and (max-width: 800px) {
+	#welcome-section {
+		background-position: center top;
+		height: 85vh;
+	}
+
+	#skill-section {
+		height: 70vh;
+	}
+
+	.skill-card {
+		width: 43%;
+	}
+
+	.edu-card {
+		width: 45%;
+	}
+
+	.vol-card {
+		margin: 1rem;
+	}
+
+}
